@@ -61,7 +61,11 @@ public class ReportEntity {
     @Column(name = "created_at", nullable = false)
     private Instant createdAt = Instant.now();
 
-    protected ReportEntity() {
+    public ReportEntity() {
+    }
+
+    public static ReportEntity create() {
+        return new ReportEntity();
     }
 
     public UUID getId() {

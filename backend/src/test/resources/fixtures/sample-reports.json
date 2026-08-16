@@ -1,0 +1,70 @@
+[
+  {
+    "reportId": "rpt-edge-001",
+    "userId": "user-alice",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "category": "pothole",
+    "description": "Large pothole on main avenue",
+    "source": "web",
+    "isDuplicate": false,
+    "isResolved": false,
+    "email": "alice@city.gov"
+  },
+  {
+    "reportId": "rpt-edge-002",
+    "userId": "user-alice-mobile",
+    "timestamp": "2026-01-15T10:02:00Z",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "category": "pothole",
+    "description": "Pothole photo confirmed from mobile app",
+    "source": "mobile",
+    "isDuplicate": false,
+    "isResolved": false,
+    "email": "alice@city.gov"
+  },
+  {
+    "reportId": "rpt-edge-003",
+    "userId": "anonymous-passerby",
+    "timestamp": "2026-01-15T10:04:00Z",
+    "location": { "lat": 28.61392, "lng": 77.20901 },
+    "category": "pothole",
+    "description": "Same pothole spotted near the crossing",
+    "source": "mobile",
+    "isDuplicate": false,
+    "isResolved": false
+  },
+  {
+    "reportId": "rpt-edge-004",
+    "userId": "user-bob",
+    "timestamp": "2026-01-15T10:06:00Z",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "category": "pothole",
+    "description": "Duplicate report of known pothole",
+    "source": "web",
+    "isDuplicate": true,
+    "isResolved": false
+  },
+  {
+    "reportId": "rpt-edge-005-late",
+    "userId": "patrol-officer-1",
+    "timestamp": "2026-01-15T09:55:00Z",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "category": "pothole",
+    "description": "Early morning patrol log arriving late",
+    "source": "mobile",
+    "isDuplicate": false,
+    "isResolved": false
+  },
+  {
+    "reportId": "rpt-edge-006-resolved",
+    "userId": "repair-crew-lead",
+    "timestamp": "2026-01-15T10:08:00Z",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "category": "pothole",
+    "description": "Pothole filled and tarmac compacted",
+    "source": "mobile",
+    "isDuplicate": false,
+    "isResolved": true
+  }
+]

@@ -14,7 +14,6 @@
     <groupId>com.workdna</groupId>
     <artifactId>civic-resolution</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>civic-resolution</name>
     <description>Real-time civic issue resolution engine</description>
 
     <properties>

@@ -43,7 +43,11 @@ public class ResolutionEntity {
     @Column(name = "last_modified", nullable = false)
     private Instant lastModified = Instant.now();
 
-    protected ResolutionEntity() {
+    public ResolutionEntity() {
+    }
+
+    public static ResolutionEntity create() {
+        return new ResolutionEntity();
     }
 
     public UUID getId() {
